@@ -14,9 +14,10 @@
     <!-- MY Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
 
-    <title>TERNAKKU</title>
+    <title>Masuk | Ternakku</title>
   </head>
   <body>
+    
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
@@ -26,69 +27,50 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">Beranda <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="index.html">Beranda</a>
             <a class="nav-item nav-link" href="login.html">Masuk</a>
             <a class="nav-item nav-link" href="#">Tentang</a>
-            <a class="nav-item btn btn-success tombol" href="daftar.html">Daftar</a>
+            <a class="nav-item btn btn-success tombol" href="#">Daftar</a>
           </div>
         </div>
       </div>
     </nav>
     <!-- Akhir NAVBAR -->
 
-
-
-    <!-- JUMBOTRON -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Dapatkan <span>Hewan Ternak</span> <br>Dengan <span>Mudah</span></h1>
-        <a href="" class="btn btn-success tombol">Our Work</a>
-      </div>
-    </div>
-    <!-- AKHIR JUMBOTRON -->
-
-
-
     <!-- Container -->
     <div class="container">
-
-      <!-- Info Panel -->
-      <div class="row justify-content-center">
-        <div class="col-10 info-panel">
+      
+      <!-- Login -->
+      <div class="row login">
+        <div class="col-lg-11">
           <div class="row">
-            <div class="col-lg">
-              <img src="img/employee.png" alt="Employee" class="float-left">
-              <h4>Cepat</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="col-lg">
-              <img src="img/hires.png" alt="Hires" class="float-left">
-              <h4>Mudah</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="col-lg">
-              <img src="img/security.png" alt="Security" class="float-left">
-              <h4>Aman</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div class="col"></div>
+            <div class="col">
+              <form>
+                <div class="form-group">
+                  <label for="nama">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="nama">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="handphone">No Handphone</label>
+                  <input type="text" class="form-control" id="handphone">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-success tombol">Daftar</button>
+              </form>
+              <a href="daftar.html">sudah memilik Akun ?</a>
             </div>
           </div>
         </div>
       </div>
-      <!-- Akhir Info Panel -->
-
-
-      <!-- Workingspace -->
-      <div class="row workingspace justify-content-center">
-        <div class="col-lg-6">
-          <img src="img/workingspace.png" alt="workingspace" class="img-fluid">
-        </div>
-        <div class="col-lg-4">
-          <h3>Bisa <span>beternak</span> dari <span>rumah</span></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quam!</p>
-          <a href="" class="btn btn-success tombol">Gallery</a>
-        </div>
-      </div>
-      <!-- Akhir Workingspace -->
+      <!-- Akhir Login -->
 
       <!-- Footer -->
       <div class="row footer">
@@ -97,14 +79,9 @@
         </div>
       </div>
       <!-- Akhir Footer -->
-      
+
     </div>
     <!-- Akhir Container -->
-
-
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
