@@ -1,17 +1,21 @@
 /* NAVBAR */
-.nabar-brand, .nav-link {
-	color: white !important;
+
+.nabar-brand, .nav-item {
+	z-index: 2;
+	color: black !important;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+	font-family: 'Unica One', cursive;
 }
 
 .navbar-brand {
-	font-family: Viga;
-	font-size: 32px;
+	font-family: 'Unica One', cursive;
+	font-size: 40px;
 }
 
 .nav-link {
 	text-transform: uppercase;
 	margin-right: 30px;
+	font-size: 20px;
 }
 
 .nav-link:hover::after {
@@ -24,58 +28,48 @@
 	margin-bottom: -8px;
 }
 
-
 /* Jumbotron */
 .jumbotron {
-	background-image: url(../img/back.jpeg);
-	background-size: cover;
-	height: 640px;
-	margin-top: -75px;
-	text-align: center;
-}
-
-.jumbotron .display-4 {
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-	font-weight: 200;
-	margin-top: 150px;
-	margin-bottom: 30px;
-}
-
-.jumbotron .display-4 span {
-	font-weight: 500;
+	margin-top: -50px;
+	background-color: rgb(146, 117, 107);
 }
 
 
-/* Info Panel */
-.info-panel {
-	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
-	border-radius: 12px;
-	margin-top: -100px;
-	background-color: white;
-	padding: 30px;
+/* Slider */
+.carousel-item {
+	text-align: right;
+	position: relative;
 }
 
-.info-panel img {
-	width: 80px;
-	height: 80px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+.carousel::after {
+	content: '';
+	display: black;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.7);
+	position: absolute;
+	bottom: 0;
 }
 
-.info-panel h4 {
-	font-size: 16px;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-top: 5px;
+.carousel-item .display-4 {
+	margin-top: -375px;
+	text-align: right;
 }
 
-.info-panel p {
-	font-size: 14px;
-	color: #ACACAC;
-	margin-top: -5px;
-	font-weight: 200;
+.carousel-item p {
+	text-align: right;
 }
 
+ /* Komoditas */
+ 
+.komo{
+	margin-top: 100px;
+	padding-top: 50px;
+}
+
+.komoditas {
+ 	margin-top: 10px;
+ }
 
 /* Workingspace */
 .workingspace {
@@ -103,11 +97,13 @@
 
 /* Footer */
 .footer {
-	margin-top: 120px;
+	background-image: url(../img/fot.jpg);
+	background-size: cover;
+	height: 720px;
 }
 
 .footer p {
-	color: #ACACAC;
+	color: black
 	font-size: 18px;
 }
 
@@ -124,6 +120,24 @@
 	background-image: url(../img/back.jpeg);
 	background-size: cover;
 }
+
+.mas::after, .daf::after{
+	content: '';
+	display: black;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.7);
+	position: absolute;
+	bottom: 0;
+}
+
+.alasan {
+	z-index: 2;
+	background-color: grey;
+	margin-top: 100px;
+	padding: 30px;
+}
+
 .login {
 	z-index: 2;
 	background-color: green;
@@ -143,9 +157,9 @@
 }
 
 .daftar {
-	background-size: cover;
-	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-	border-radius: 10px;
+	z-index: 2;
+	margin-top: 50px;
+	background-color: black;
 	padding: 30px;
 }
 
@@ -157,7 +171,7 @@
 	border-bottom: 2px solid #000;
 }
 
-..input-div .one{
+.input-div .one{
 	margin-top: 0;
 }
 
