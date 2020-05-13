@@ -1,7 +1,7 @@
 /* NAVBAR */
 
 .nabar-brand, .nav-item {
-	z-index: 2;
+	z-index: 3;
 	color: black !important;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 	font-family: 'Unica One', cursive;
@@ -16,16 +16,6 @@
 	text-transform: uppercase;
 	margin-right: 30px;
 	font-size: 20px;
-}
-
-.nav-link:hover::after {
-	content: '';
-	display: block;
-	border-bottom: 3px solid #0B63DC;
-	width: 50%;
-	margin: auto;
-	padding-bottom: 5px;
-	margin-bottom: -8px;
 }
 
 /* Jumbotron */
@@ -71,10 +61,19 @@
  	margin-top: 10px;
  }
 
+/* Alasan */
+
+.alasan {
+	background-color: grey;
+	margin-top: 100px;
+	padding: 30px;
+}
+
 /* Workingspace */
 .workingspace {
 	margin-top: 120px;
 }
+
 
 .workingspace h3 {
 	font-size: 52px;
@@ -96,16 +95,25 @@
 
 
 /* Footer */
-.footer {
-	background-image: url(../img/fot.jpg);
-	background-size: cover;
-	height: 720px;
+footer {
+	background-color: black;
+	margin-top: 120px;
+	width: 100%;
+	padding: 10px;
+
 }
 
-.footer p {
-	color: black
+footer p {
+	color: white;
 	font-size: 18px;
 }
+
+.copr {
+	padding: 30px;
+	border-top: 1px solid white;
+}
+
+
 
 
 /* Utility */
@@ -117,7 +125,7 @@
 
 /* LOGIN */
 .mas, .daf {
-	background-image: url(../img/back.jpeg);
+	background-image: url(../img/fot.jpg);
 	background-size: cover;
 }
 
@@ -125,17 +133,27 @@
 	content: '';
 	display: black;
 	width: 100%;
-	height: 100%;
-	background-color: rgb(0, 0, 0, 0.7);
+	height: 87%;
+	background-color: rgb(0, 0, 0, 0.6);
 	position: absolute;
 	bottom: 0;
 }
 
-.alasan {
-	z-index: 2;
-	background-color: grey;
-	margin-top: 100px;
-	padding: 30px;
+.garmas {
+	z-index: 3;
+	border: 3px solid white;
+	margin-top: 50px;
+	padding-bottom: 30px;
+}
+
+.garmas h1 {
+	font-family: 'Kaushan Script', cursive;
+	color: black;
+}
+
+.judul{
+	z-index: 3;
+	margin: 20px 0;
 }
 
 .login {
@@ -148,114 +166,52 @@
 
 .isi {
 	z-index: 1;
-	background-image: url(../img/wave.png);
 	background-color: white;
-	background-size: cover;
-	border-radius: 10px;
-	padding: 100px 50px 30px;
-	margin-top: -50px
+	padding: 10px;
+}
+
+/* Daftar */
+
+.sebagai {
+	background-color: #ACACAC;
+	color: black;
+	font-size: 18px;
+	padding-top: 10px;
 }
 
 .daftar {
 	z-index: 2;
 	margin-top: 50px;
-	background-color: black;
+	background-color: rgba(255, 255, 255, 0.5);
 	padding: 30px;
 }
 
-.input-div {
-	display: grid;
-	grid-template-columns: 7% 93%;
-	margin: 25px 0;
-	padding: 5px 0;
-	border-bottom: 2px solid #000;
+/* Dashboard */
+
+.proj {
+	background-color: green;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 150px;
 }
 
-.input-div .one{
-	margin-top: 0;
+.dash {
+	background-color: #ACACAC;
 }
 
-.i{
-	color: #000;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.konten-card {
+	padding: 15px;
 }
 
-.i i{
-	transition: .3s;
+.card-profile {
+	background-color: rgba(255, 255, 255, 0.6);
 }
 
-.input-div > div{
-    position: relative;
-	height: 45px;
+.proyek {
+	margin-top: 80px;
 }
 
-.input-div > div > h5{
-	position: absolute;
-	left: 10px;
-	top: 50%;
-	transform: translateY(-50%);
-	color: #999;
-	font-size: 18px;
-	transition: .3s;
-}
-
-.input-div:before, .input-div:after{
-	content: '';
-	position: absolute;
-	bottom: -2px;
-	width: 0%;
-	height: 2px;
-	transition: .4s;
-}
-
-.input-div:before{
-	right: 50%;
-}
-
-.input-div:after{
-	left: 50%;
-}
-
-.input-div.focus:before, .input-div.focus:after{
-	width: 50%;
-}
-
-.input-div.focus > div > h5{
-	top: -5px;
-	font-size: 15px;
-}
-
-
-.input-div > div > input{
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	border: none;
-	outline: none;
-	background: none;
-	padding: 0.5rem 0.7rem;
-	font-size: 1.2rem;
-}
-
-.input-div.pass{
-	margin-bottom: 4px;
-}
-
-a{
-	display: block;
-	text-align: right;
-	text-decoration: none;
-	color: #999;
-	font-size: 0.9rem;
-	transition: .3s;
-}
-
-
-
-.daftar {
-	background-color: white;
+.card-avatar img {
+	margin-top: -50px;
+	height: 100px;
 }
