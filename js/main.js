@@ -1,20 +1,9 @@
-const inputs = document.querySelectorAll(".input");
-
-
-function addcl(){
-	let parent = this.parentNode.parentNode;
-	parent.classList.add("focus");
-}
-
-function remcl(){
-	let parent = this.parentNode.parentNode;
-	if(this.value == ""){
-		parent.classList.remove("focus");
+function muncul(){
+	var nama = document.getElementById("email").value;
+	var password = document.getElementById("password").value;
+	if ((nama == "inzaghi") && (password == "abc123")) {
+		window.alert("Berhasil Login");
+	} else {
+		window.alert("Gagal Login");
 	}
 }
-
-
-inputs.forEach(input => {
-	input.addEventListener("focus", addcl);
-	input.addEventListener("blur", remcl);
-});

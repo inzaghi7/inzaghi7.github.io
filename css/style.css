@@ -12,6 +12,12 @@
 	font-size: 35px;
 }
 
+.navbar-brand img {
+	height: 70px;
+	margin-top: -10px;
+	margin-right: -15px;
+}
+
 .nav-link {
 	text-transform: uppercase;
 	margin-right: 30px;
@@ -27,6 +33,11 @@
 .jumbotron .col {
 	margin-top: 20px;
 	color: white;
+}
+
+.jumbotron h4 {
+	font-size: 18px;
+	margin-top: 20px;
 }
 
 
@@ -74,6 +85,37 @@
 	margin-top: 100px;
 	padding: 30px;
 	color: white;
+}
+
+/* Tentang */
+
+.tent {
+	background-color: darkkhaki;
+}
+
+.awal {
+	margin-top: 160px;
+}
+
+.awal1 {
+	margin-top: 50px;
+}
+
+.about {
+	background-color: white;
+	padding: 60px 15px 15px;
+	margin-top: -30px;
+	border-radius: 3px;
+}
+
+.judul1 {
+	z-index: 2;
+	background-color: green;
+	background:linear-gradient(60deg, #66bb6a, #43a047);
+	display: inline-block;
+	border-radius: 5px;
+	padding: 15px;
+	margin-left: 10px;
 }
 
 /* Workingspace */
@@ -163,7 +205,7 @@ footer p {
 
 .garmas h1 {
 	font-family: 'Kaushan Script', cursive;
-	color: black;
+	color: white;
 }
 
 .judul{
@@ -188,7 +230,7 @@ footer p {
 /* Daftar */
 
 .sebagai {
-	background-color: #ACACAC;
+	background-color: white;
 	color: black;
 	font-size: 18px;
 	padding-top: 10px;
@@ -204,14 +246,14 @@ footer p {
 /* Dashboard */
 
 .proj {
-	background-color: green;
+	background-color: #556B2F;
 	padding: 10px;
 	border-radius: 5px;
 	margin-top: 150px;
 }
 
 .dash {
-	background-color: #ACACAC;
+	background-color: darkkhaki;
 }
 
 .konten-card {
@@ -230,6 +272,8 @@ footer p {
 	margin-top: -50px;
 	height: 100px;
 }
+
+/* Profil */
 
 /* Hewan Saya */
 
@@ -253,6 +297,12 @@ footer p {
 
 .prof {
 	margin-top: 120px;
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(0, 0, 0, 0.7);
 	padding: 15px;
+	color: white;
+}
+
+.prfil {
+	background-image: url(../img/pro.jpg);
+	background-size: cover;
 }
