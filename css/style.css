@@ -9,7 +9,7 @@
 
 .navbar-brand {
 	font-family: 'Unica One', cursive;
-	font-size: 40px;
+	font-size: 35px;
 }
 
 .nav-link {
@@ -24,11 +24,17 @@
 	background-color: rgb(146, 117, 107);
 }
 
+.jumbotron .col {
+	margin-top: 20px;
+	color: white;
+}
+
 
 /* Slider */
 .carousel-item {
 	text-align: right;
 	position: relative;
+	height: 675px;
 }
 
 .carousel::after {
@@ -42,7 +48,7 @@
 }
 
 .carousel-item .display-4 {
-	margin-top: -375px;
+	margin-top: -365px;
 	text-align: right;
 }
 
@@ -67,6 +73,7 @@
 	background-color: grey;
 	margin-top: 100px;
 	padding: 30px;
+	color: white;
 }
 
 /* Workingspace */
@@ -103,13 +110,21 @@ footer {
 
 }
 
+.sosmed {
+	padding-top: 30px;
+}
+
+footer h5 {
+	color: whitesmoke;
+}
+
 footer p {
-	color: white;
-	font-size: 18px;
+	color: #a49e9e;
+	font-size: 12px;
 }
 
 .copr {
-	padding: 30px;
+	padding-top: 10px;
 	border-top: 1px solid white;
 }
 
@@ -129,7 +144,7 @@ footer p {
 	background-size: cover;
 }
 
-.mas::after, .daf::after{
+/*.mas::after, .daf::after{
 	content: '';
 	display: black;
 	width: 100%;
@@ -137,7 +152,7 @@ footer p {
 	background-color: rgb(0, 0, 0, 0.6);
 	position: absolute;
 	bottom: 0;
-}
+}*/
 
 .garmas {
 	z-index: 3;
@@ -200,7 +215,7 @@ footer p {
 }
 
 .konten-card {
-	padding: 15px;
+	padding: 20px 15px 50px 15px;
 }
 
 .card-profile {
@@ -214,4 +229,30 @@ footer p {
 .card-avatar img {
 	margin-top: -50px;
 	height: 100px;
+}
+
+/* Hewan Saya */
+
+.kondisi .cont-invest {
+	background-color: rgba(255, 255, 255, 0.7);
+	margin:50px 20px;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.beli .cont-invest {
+	margin:20px 20px;
+}
+
+.avatar img {
+	height: 100px;
+	padding: 15px;
+}
+
+/* Profil */
+
+.prof {
+	margin-top: 120px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 15px;
 }

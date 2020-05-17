@@ -29,21 +29,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">Dashboard <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="#">Beranda <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Tentang</a>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Akun Saya
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="profil.html">Profil</a>
+                <a class="dropdown-item" href="#">Profil</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="hewansaya.html">Hewan Saya</a>
+                <a class="dropdown-item" href="#">Hewan Saya</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="belihewan.html">Beli Hewan</a>
+                <a class="dropdown-item" href="#">Beli Hewan</a>
               <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="ternak.html">Ternak Hewan</a>
+                <a class="dropdown-item" href="#">Ternak Hewan</a>
               <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="index.html">Keluar</a>
+                <a class="dropdown-item" href="#">Keluar</a>
               </div>
             </li>
           </div>
@@ -59,76 +60,41 @@
     <!-- Container -->
     <div class="container">
 
-      <!-- Proyek -->
-      <div class="row proj">
-        <div class="col text-center">
-          <h1>Silahkan pilih proyek yang anda inginkan</h1>
+      <!-- Profil -->
+      <div class="row justify-content-center">
+        <div class="col-lg-7 prof">
+          <h5>Data Diri</h5>
+          <form>
+              <div class="form-group">
+                <label for="pengguna">Nama Lengkap</label>
+                <input type="text" class="form-control" id="pengguna">
+              </div>
+              <div class="form-group">
+                <label for="kelamin">Jenis Kelamin</label>
+                <input type="text" class="form-control" id="kelamin">
+              </div>
+              <div class="form-group">
+                <label for="pekerjaan">Pekerjaan</label>
+                <input type="email" class="form-control" id="pekerjaan">
+              </div>
+              <div class="form-group">
+                <label for="pekerjaan">Domisili-Provinsi</label>
+                <input type="email" class="form-control" id="pekerjaan">
+              </div>
+              <div class="form-group">
+                <label for="pekerjaan">Domisili-Kabupaten/Kota</label>
+                <input type="email" class="form-control" id="pekerjaan">
+              </div>
+              <div class="form-group">
+                <label for="pekerjaan">No Telp.</label>
+                <input type="email" class="form-control" id="pekerjaan">
+              </div>
+              <button type="submit" class="btn btn-success">Simpan</button>
+            </form>
         </div>
       </div>
+      <!-- Akhir Profil -->
 
-      <div class="row proyek">
-        <div class="col-md-3 cont-invest text-center">
-          <div class="card card-profile">
-            <div class="card-avatar">
-              <a href="#">
-                <img class="img" src="https://vestifarm.com/dashboard/asset_template/creative-tim/img/faces/Project_Icons_Kurban_Kambing.png">
-              </a>
-            </div>
-            <div class="content konten-card">
-              <h3 class="card-title">Beli Domba</h3>
-              <br>
-              <p class="card-content">Dapatkan return hingga 24% dalam 12 bulan, bagi hasil dilakukan setiap 4 bulan!</p>
-              <a href="https://vestifarm.com/dashboard/customer/project/63" class="btn btn-success btn-round">PILIH</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 cont-invest text-center">
-          <div class="card card-profile">
-            <div class="card-avatar">
-              <a href="#">
-                <img class="img" src="https://vestifarm.com/dashboard/asset_template/creative-tim/img/faces/Project_Icons_Kurban_Kambing.png">
-              </a>
-            </div>
-            <div class="content konten-card">
-              <h3 class="card-title">Ternak Domba</h3>
-              <br>
-              <p class="card-content">Dapatkan return hingga 24% dalam 12 bulan, bagi hasil dilakukan setiap 4 bulan!</p>
-              <a href="https://vestifarm.com/dashboard/customer/project/63" class="btn btn-success btn-round">PILIH</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 cont-invest text-center">
-          <div class="card card-profile">
-            <div class="card-avatar">
-              <a href="#">
-                <img class="img" src="https://vestifarm.com/dashboard/asset_template/creative-tim/img/faces/Project_Icons_Kurban_Kambing.png">
-              </a>
-            </div>
-            <div class="content konten-card">
-              <h3 class="card-title">Beli sapi</h3>
-              <br>
-              <p class="card-content">Dapatkan return hingga 24% dalam 12 bulan, bagi hasil dilakukan setiap 4 bulan!</p>
-              <a href="https://vestifarm.com/dashboard/customer/project/63" class="btn btn-success btn-round">PILIH</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 cont-invest text-center">
-          <div class="card card-profile">
-            <div class="card-avatar">
-              <a href="#">
-                <img class="img" src="https://vestifarm.com/dashboard/asset_template/creative-tim/img/faces/Project_Icons_Kurban_Kambing.png">
-              </a>
-            </div>
-            <div class="content konten-card">
-              <h3 class="card-title">Ternak Sapi</h3>
-              <br>
-              <p class="card-content">Dapatkan return hingga 24% dalam 12 bulan, bagi hasil dilakukan setiap 4 bulan!</p>
-              <a href="https://vestifarm.com/dashboard/customer/project/63" class="btn btn-success btn-round">PILIH</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Akhir Proyek -->
     </div>
     <!-- Akhir Container -->
 
@@ -154,7 +120,7 @@
                 </div>
                 <div class="col-lg-3 one">
                    <h5>INFORMASI</h5>
-                   <p>Lorem ipsum dolor sit amet.</p>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, mollitia numquam doloribus. Consequuntur distinctio eius ut, ipsa voluptas asperiores minima et atque nihil reiciendis, aliquid doloribus rerum quae pariatur officia.</p>
                 </div>
               </div>
               <div class="row">
